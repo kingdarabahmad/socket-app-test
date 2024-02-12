@@ -1,0 +1,24 @@
+{
+  "name": "socketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ssc build -r -o --test=./test/index.js --headless",
+    "init-project": "ssc init --config",
+    "start": "ssc build -r -o --watch",
+    "build": "ssc build -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "type": "module"
+}
